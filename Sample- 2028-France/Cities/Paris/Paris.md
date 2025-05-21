@@ -1,3 +1,8 @@
+---
+banner: "https://lostinfrenchlation.com/wp-content/uploads/2018/06/paris-champs-elysees.jpg"
+banner_y: 0.12
+banner_lock: true
+---
 ### Itinerary
 ```dataview
 TABLE 
@@ -34,6 +39,9 @@ disableCollapseIcon: true
 - 
 
 ### Tasks
-- [ ] 
+- [ ] This is a task on the folder overview for Paris- check train times
 
 ### Map
+```mapview
+{"name":"Default","mapZoom":8,"centerLat":48.8582599,"centerLng":2.2945006,"query":"","chosenMapSource":0,"autoFit":false,"lock":false,"showLinks":false,"linkColor":"red","markerLabels":"off","embeddedHeight":300}
+```

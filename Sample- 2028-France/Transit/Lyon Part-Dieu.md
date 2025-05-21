@@ -1,6 +1,9 @@
+---
+locations: ""
+---
 
 #### Train/bus locations and tags
-- [{{title}}](geo:) tag:transit
+- [Lyon Part-Dieu](geo:45.7605642,4.8595334) tag:transit
 - #train 
 
 #### Itinerary
@@ -16,4 +19,4 @@
 - 
 
 #### Tasks
-- [ ] 
+- [ ] Book our train tickets from Paris to Lyon 📅 2028-01-01

@@ -1,0 +1,38 @@
+{
+  "trigger_auto_manual": "Automatic",
+  "use_regex_to_check_for_tags": true,
+  "statusBar_trigger_indicator": true,
+  "folder_tag_pattern": [
+    {
+      "folder": "Sample- 2028-France/Cities/Lyon",
+      "tag": "#lyon$",
+      "pattern": ""
+    },
+    {
+      "folder": "Sample- 2028-France/Cities/Lyon/Food and Drink",
+      "tag": "#lyon\\/.*",
+      "pattern": ""
+    },
+    {
+      "folder": "Sample- 2028-France",
+      "tag": "#france2028",
+      "pattern": ""
+    },
+    {
+      "folder": "Sample- 2028-France/Cities/Paris/Food and Drink",
+      "tag": "#paris\\/.*",
+      "pattern": ""
+    },
+    {
+      "folder": "Sample- 2028-France/Cities/Paris",
+      "tag": "#paris$",
+      "pattern": ""
+    }
+  ],
+  "use_regex_to_check_for_excluded_folder": false,
+  "excluded_folder": [
+    {
+      "folder": "templates"
+    }
+  ]
+}

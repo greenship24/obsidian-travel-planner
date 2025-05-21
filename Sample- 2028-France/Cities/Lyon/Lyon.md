@@ -1,3 +1,6 @@
+---
+banner: "https://media.lyon-france.com/1280x852/190527/9124493.jpg"
+---
 ### Itinerary
 ```dataview
 TABLE 
@@ -34,6 +37,9 @@ disableCollapseIcon: true
 - 
 
 ### Tasks
-- [ ] 
+- [ ] Find more Lyon attractions
 
 ### Map
+```mapview
+{"name":"Default","mapZoom":8,"centerLat":45.748097,"centerLng":4.8441381,"query":"","chosenMapSource":0,"autoFit":false,"lock":false,"showLinks":false,"linkColor":"red","markerLabels":"off","embeddedHeight":300}
+```

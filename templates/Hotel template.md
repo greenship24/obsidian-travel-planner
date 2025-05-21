@@ -1,5 +1,5 @@
 #### Location and tags
-- [](geo:) tag:hotel 
+- [{{title}}](geo:) tag:hotel 
 - #hotel
 
 #### Info 
