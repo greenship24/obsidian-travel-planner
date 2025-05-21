@@ -1,0 +1,447 @@
+{
+  "defaultState": {
+    "name": "Default",
+    "mapZoom": 1,
+    "mapCenter": {
+      "lat": 40.44694705960048,
+      "lng": -180.70312500000003
+    },
+    "query": "",
+    "queryError": false,
+    "chosenMapSource": 0,
+    "forceHistorySave": false,
+    "followActiveNote": false,
+    "embeddedHeight": 300,
+    "autoFit": false,
+    "lock": false,
+    "showLinks": false,
+    "linkColor": "red",
+    "markerLabels": "off"
+  },
+  "savedStates": [],
+  "markerIconRules": [
+    {
+      "ruleName": "default",
+      "preset": true,
+      "iconDetails": {
+        "prefix": "fas",
+        "icon": "fa-circle",
+        "markerColor": "blue",
+        "innerHTML": "<svg aria-hidden=\"true\" focusable=\"false\" data-prefix=\"fas\" data-icon=\"circle\" class=\"svg-inline--fa fa-circle\" role=\"img\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 512 512\" style=\"color: white;\"><path fill=\"currentColor\" d=\"M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512z\"></path></svg>"
+      }
+    },
+    {
+      "ruleName": "#trip",
+      "preset": false,
+      "iconDetails": {
+        "prefix": "fas",
+        "icon": "fa-hiking",
+        "markerColor": "green"
+      }
+    },
+    {
+      "ruleName": "#kids",
+      "preset": false,
+      "iconDetails": {
+        "prefix": "fas",
+        "icon": "fa-children",
+        "markerColor": "violet"
+      }
+    },
+    {
+      "ruleName": "#trip-water",
+      "preset": false,
+      "iconDetails": {
+        "prefix": "fas",
+        "markerColor": "blue"
+      }
+    },
+    {
+      "ruleName": "#zoo",
+      "preset": false,
+      "iconDetails": {
+        "prefix": "fas",
+        "icon": "fa-paw",
+        "markerColor": "blue-dark"
+      }
+    },
+    {
+      "ruleName": "#food",
+      "preset": false,
+      "iconDetails": {
+        "prefix": "fas",
+        "icon": "fa-utensils",
+        "markerColor": "orange"
+      }
+    },
+    {
+      "ruleName": "#food/asian",
+      "preset": false,
+      "iconDetails": {
+        "prefix": "fas",
+        "icon": "fa-bowl-rice",
+        "markerColor": "orange"
+      }
+    },
+    {
+      "ruleName": "#food/pizza",
+      "preset": false,
+      "iconDetails": {
+        "prefix": "fas",
+        "icon": "fa-pizza-slice",
+        "markerColor": "orange"
+      }
+    },
+    {
+      "ruleName": "#food/icecream",
+      "preset": false,
+      "iconDetails": {
+        "prefix": "fas",
+        "icon": "fa-ice-cream",
+        "markerColor": "violet"
+      }
+    },
+    {
+      "ruleName": "#food/sweets",
+      "preset": false,
+      "iconDetails": {
+        "prefix": "fas",
+        "icon": "fa-cookie",
+        "markerColor": "violet"
+      }
+    },
+    {
+      "ruleName": "#food/coffee",
+      "preset": false,
+      "iconDetails": {
+        "prefix": "fas",
+        "icon": "fa-mug-hot",
+        "markerColor": "orange",
+        "shape": "penta"
+      }
+    },
+    {
+      "ruleName": "#food/burgers",
+      "preset": false,
+      "iconDetails": {
+        "prefix": "fas",
+        "icon": "fa-burger",
+        "markerColor": "orange"
+      }
+    },
+    {
+      "ruleName": "#not",
+      "preset": false,
+      "iconDetails": {
+        "prefix": "fas",
+        "icon": "fa-x",
+        "markerColor": "black"
+      }
+    },
+    {
+      "ruleName": "#airport",
+      "preset": false,
+      "iconDetails": {
+        "prefix": "fas",
+        "icon": "fa-plane-departure",
+        "markerColor": "cyan"
+      }
+    },
+    {
+      "ruleName": "#car",
+      "preset": false,
+      "iconDetails": {
+        "prefix": "fas",
+        "icon": "fa-car",
+        "markerColor": "cyan"
+      }
+    },
+    {
+      "ruleName": "#transit",
+      "preset": false,
+      "iconDetails": {
+        "prefix": "fas",
+        "markerColor": "cyan",
+        "icon": "fa-train-subway"
+      }
+    },
+    {
+      "ruleName": "#hotel",
+      "preset": false,
+      "iconDetails": {
+        "prefix": "fas",
+        "icon": "fa-bed",
+        "markerColor": "cyan"
+      }
+    },
+    {
+      "ruleName": "#sports",
+      "preset": false,
+      "iconDetails": {
+        "prefix": "fas",
+        "icon": "fa-football",
+        "markerColor": "blue-dark"
+      }
+    },
+    {
+      "ruleName": "#museum",
+      "preset": false,
+      "iconDetails": {
+        "prefix": "fas",
+        "markerColor": "green-dark",
+        "icon": "fa-landmark",
+        "shape": "square"
+      }
+    },
+    {
+      "ruleName": "#beer",
+      "preset": false,
+      "iconDetails": {
+        "prefix": "fas",
+        "icon": "fa-beer",
+        "shape": "penta",
+        "markerColor": "orange"
+      }
+    },
+    {
+      "ruleName": "#church",
+      "preset": false,
+      "iconDetails": {
+        "prefix": "fas",
+        "icon": "fa-church",
+        "markerColor": "green-dark",
+        "shape": "square"
+      }
+    },
+    {
+      "ruleName": "#overlook",
+      "preset": false,
+      "iconDetails": {
+        "prefix": "fas",
+        "icon": "fa-glasses",
+        "markerColor": "green-dark",
+        "shape": "square"
+      }
+    },
+    {
+      "ruleName": "#park",
+      "preset": false,
+      "iconDetails": {
+        "prefix": "fas",
+        "icon": "fa-tree",
+        "markerColor": "green-dark"
+      }
+    },
+    {
+      "ruleName": "#library",
+      "preset": false,
+      "iconDetails": {
+        "prefix": "fas",
+        "icon": "fa-book-open",
+        "markerColor": "green-dark"
+      }
+    },
+    {
+      "ruleName": "#shopping",
+      "preset": false,
+      "iconDetails": {
+        "prefix": "fas",
+        "markerColor": "violet",
+        "icon": "fa-gift"
+      }
+    },
+    {
+      "ruleName": "#wine",
+      "preset": false,
+      "iconDetails": {
+        "prefix": "fas",
+        "icon": "fa-wine-glass-empty",
+        "shape": "penta",
+        "markerColor": "orange"
+      }
+    },
+    {
+      "ruleName": "#beach",
+      "preset": false,
+      "iconDetails": {
+        "prefix": "fas",
+        "icon": "fa-person-swimming",
+        "markerColor": "green-dark"
+      }
+    },
+    {
+      "ruleName": "#food/market",
+      "preset": false,
+      "iconDetails": {
+        "prefix": "fas",
+        "icon": "fa-shop",
+        "markerColor": "orange",
+        "shape": "square"
+      }
+    },
+    {
+      "ruleName": "#food/breakfast",
+      "preset": false,
+      "iconDetails": {
+        "prefix": "fas",
+        "icon": "fa-egg",
+        "markerColor": "orange"
+      }
+    },
+    {
+      "ruleName": "#food/sandwich",
+      "preset": false,
+      "iconDetails": {
+        "prefix": "fas",
+        "icon": "fa-bread-slice",
+        "markerColor": "orange"
+      }
+    },
+    {
+      "ruleName": "#castle",
+      "preset": false,
+      "iconDetails": {
+        "prefix": "fas",
+        "icon": "fa-chess-rook",
+        "markerColor": "green",
+        "shape": "square"
+      }
+    },
+    {
+      "ruleName": "#plaza",
+      "preset": false,
+      "iconDetails": {
+        "prefix": "fas",
+        "icon": "fa-archway",
+        "markerColor": "green",
+        "shape": "square"
+      }
+    },
+    {
+      "ruleName": "#government",
+      "preset": false,
+      "iconDetails": {
+        "prefix": "fas",
+        "icon": "fa-school",
+        "markerColor": "green",
+        "shape": "square"
+      }
+    },
+    {
+      "ruleName": "#trip-water",
+      "preset": false,
+      "iconDetails": {
+        "prefix": "fas",
+        "markerColor": "blue"
+      }
+    },
+    {
+      "ruleName": "#dogs",
+      "preset": false,
+      "iconDetails": {
+        "prefix": "fas",
+        "icon": "fa-paw"
+      }
+    },
+    {
+      "ruleName": "#park",
+      "preset": false,
+      "iconDetails": {
+        "prefix": "fas",
+        "icon": "fa-tree",
+        "markerColor": "green"
+      }
+    },
+    {
+      "ruleName": "#museum",
+      "preset": false,
+      "iconDetails": {
+        "prefix": "fas",
+        "icon": "fa-museum",
+        "markerColor": "green"
+      }
+    }
+  ],
+  "zoomOnGoFromNote": 15,
+  "autoZoom": true,
+  "markerClickBehavior": "replaceCurrent",
+  "markerCtrlClickBehavior": "dedicatedPane",
+  "markerMiddleClickBehavior": "dedicatedTab",
+  "openMapBehavior": "replaceCurrent",
+  "openMapCtrlClickBehavior": "dedicatedPane",
+  "openMapMiddleClickBehavior": "dedicatedTab",
+  "newPaneSplitDirection": "vertical",
+  "newNoteNameFormat": "Location added on {{date:YYYY-MM-DD}}T{{date:HH-mm}}",
+  "newNotePath": "",
+  "newNoteTemplate": "",
+  "showNoteNamePopup": true,
+  "showLinkNameInPopup": "always",
+  "showNotePreview": true,
+  "showClusterPreview": true,
+  "debug": false,
+  "openIn": [
+    {
+      "name": "Google Maps",
+      "urlPattern": "https://maps.google.com/?q={x},{y}"
+    }
+  ],
+  "urlParsingRules": [
+    {
+      "name": "OpenStreetMap Show Address",
+      "regExp": "https:\\/\\/www.openstreetmap.org\\S*query=([0-9\\.\\-]+%2C[0-9\\.\\-]+)\\S*",
+      "ruleType": "latLng",
+      "preset": true
+    },
+    {
+      "name": "Generic Lat,Lng",
+      "regExp": "([0-9\\.\\-]+),\\s*([0-9\\.\\-]+)",
+      "ruleType": "latLng",
+      "preset": true
+    },
+    {
+      "name": "Geolocation Link",
+      "regExp": "\\[.*\\]\\(geo:([0-9\\.\\-]+),([0-9\\.\\-]+)\\)",
+      "ruleType": "latLng",
+      "preset": true
+    }
+  ],
+  "mapControls": {
+    "minimized": false,
+    "filtersDisplayed": true,
+    "viewDisplayed": true,
+    "linksDisplayed": false,
+    "presetsDisplayed": false
+  },
+  "maxClusterRadiusPixels": 20,
+  "searchProvider": "osm",
+  "searchDelayMs": 250,
+  "geocodingApiKey": "",
+  "useGooglePlaces": false,
+  "mapSources": [
+    {
+      "name": "CartoDB",
+      "urlLight": "https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png",
+      "preset": true
+    }
+  ],
+  "frontMatterKey": "location",
+  "chosenMapMode": "auto",
+  "saveHistory": true,
+  "letZoomBeyondMax": false,
+  "queryForFollowActiveNote": "path:\"$PATH$\"",
+  "supportRealTimeGeolocation": false,
+  "fixFrontMatterOnPaste": true,
+  "geoHelperPreferApp": false,
+  "geoHelperType": "url",
+  "geoHelperCommand": "chrome",
+  "geoHelperUrl": "https://esm7.github.io/obsidian-geo-helper/",
+  "tagForGeolocationNotes": "",
+  "handleGeolinksInNotes": true,
+  "showGeolinkPreview": false,
+  "zoomOnGeolinkPreview": 10,
+  "handleGeolinkContextMenu": true,
+  "routingUrl": "https://www.google.com/maps/dir/?api=1&origin={x0},{y0}&destination={x1},{y1}",
+  "cacheAllTiles": true,
+  "offlineMaxTileAgeMonths": 6,
+  "offlineMaxStorageGb": 2
+}

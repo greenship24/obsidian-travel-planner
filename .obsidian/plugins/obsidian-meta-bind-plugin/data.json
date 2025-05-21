@@ -1,0 +1,84 @@
+{
+  "devMode": false,
+  "ignoreCodeBlockRestrictions": false,
+  "preferredDateFormat": "YYYY-MM-DD",
+  "firstWeekday": {
+    "index": 1,
+    "name": "Monday",
+    "shortName": "Mo"
+  },
+  "syncInterval": 200,
+  "enableJs": false,
+  "viewFieldDisplayNullAsEmpty": true,
+  "enableSyntaxHighlighting": true,
+  "enableEditorRightClickMenu": true,
+  "inputFieldTemplates": [
+    {
+      "name": "place",
+      "declaration": "INPUT[text(placeholder(Place))]"
+    },
+    {
+      "name": "time",
+      "declaration": "INPUT[time]"
+    },
+    {
+      "name": "date",
+      "declaration": "INPUT[datePicker(defaultValue(null),showcase)]"
+    },
+    {
+      "name": "food",
+      "declaration": "INPUT[inlineSelect(\n  option(food/asian, Asian),\n  option(food/breakfast, Breakfast),\n  option(food/burgers, Burgers),\n  option(food/sweets, Cookies or Sweets),\n  option(food, Food-general),\n  option(food/icecream, Ice Cream),\n  option(food/market, Market),\n  option(food/pizza, Pizza),\n  option(food/sandwich, Sandwich)\n)]"
+    },
+    {
+      "name": "drinks",
+      "declaration": "INPUT[inlineSelect(\n  option(beer, Beer),\n  option(food/coffee, Coffee),\n  option(wine, Wine)\n)]"
+    },
+    {
+      "name": "event",
+      "declaration": "INPUT[inlineSelect(\n  option(beach, Beach),\n  option(castle, Castle),\n  option(church, Church or Cathedral),\n  option(government, Government Building),\n  option(trip, Hiking),\n  option(kids, Kids),\n  option(library, Library),\n  option(museum, Museum),\n  option(not, Places NOT to go),\n  option(overlook, Overlook/Sightseeing),\n  option(park, Park),\n  option(plaza, Plaza),\n  option(shopping, Shopping),\n  option(zoo, Zoo)\n)]"
+    }
+  ],
+  "buttonTemplates": [
+    {
+      "label": "Add to itinerary",
+      "icon": "plus",
+      "style": "primary",
+      "class": "",
+      "cssStyle": "",
+      "backgroundImage": "",
+      "tooltip": "Minimally needs date filled out.",
+      "id": "add_itinerary",
+      "hidden": true,
+      "actions": [
+        {
+          "type": "updateMetadata",
+          "bindTarget": "itinerary",
+          "evaluate": false,
+          "value": "true"
+        }
+      ]
+    },
+    {
+      "label": "Remove from itinerary",
+      "icon": "minus",
+      "style": "destructive",
+      "class": "",
+      "cssStyle": "",
+      "backgroundImage": "",
+      "tooltip": "Removes from itinerary but retains date, times, place on this page.",
+      "id": "remove_itinerary",
+      "hidden": true,
+      "actions": [
+        {
+          "type": "updateMetadata",
+          "bindTarget": "itinerary",
+          "evaluate": false,
+          "value": "false"
+        }
+      ]
+    }
+  ],
+  "excludedFolders": [
+    "templates"
+  ]
+}
