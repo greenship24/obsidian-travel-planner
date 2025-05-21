@@ -4,7 +4,7 @@ tags: wine
 ---
 #### Location and tags
 - [Oenotheque ](geo:45.748097,4.8441381) `INPUT[drinks][:tags]`
-- #wine 
+- #wine #lyon/wine 
 
 #### Itinerary
 - `INPUT[date][:date]` in `INPUT[place][:place]`
