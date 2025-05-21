@@ -20,7 +20,7 @@ itinerary: true
 #### Hours and pricing
 - @ 24/7
 - ~ 2 hours to fully explore
-- $ pricing
+- $ Unsure
 
 #### Information
 - Constructed between 1887 and 1889

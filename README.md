@@ -1,4 +1,4 @@
-# Obsidian Trip Planner
+# Obsidian Travel Planner
 
 This is not a plugin but rather a base vault that you can extend (or just pick from to add to your existing vault, etc.)
 
